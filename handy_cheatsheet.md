@@ -46,4 +46,37 @@ let mut vet: Vec<i8> = vec![1, 2, 3];
 
 ```javascript
 let lista = [4, 5.9, "palavra", true];
+
+console.log(lista[2]) // palavra
+```
+
+## Javascript Object
+
+- à esquera a chave (key), à direita o valor (value)
+
+```javascript
+let javascript_object = {
+  nome: "Diego",
+  5: "normal",
+  6.7: 9,
+  false: "não"
+}
+
+console.log(javascript_object.nome); // "Diego"
+
+console.log(javascript_object["nome"]); // "Diego"
+
+console.log(javascript_object[5]); // "normal"
+
+console.log(javascript_object["5"]); // "normal"
+
+console.log(javascript_object[6.7]); // 9
+
+console.log(javascript_object["6.7"]); // 9
+
+console.log(javascript_object.false); // "não"
+
+console.log(javascript_object[false]); // "não"
+
+console.log(javascript_object["false"]); // "não"
 ```
