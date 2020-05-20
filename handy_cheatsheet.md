@@ -111,3 +111,57 @@ for ( let i = 0; i < arr.length; i++ )
   console.log(arr[i]);
 }
 ```
+
+```javascript
+let arr = ["salada", "tomate", "batata", "beterraba", "cenoura"];
+
+for ( let a in arr )
+{
+  console.log(a);
+}
+```
+
+```javascript
+let arr = ["salada", "tomate", "batata", "beterraba", "cenoura"];
+
+for ( let a of arr )
+{
+  console.log(a);
+}
+```
+
+```javascript
+let obj = { nome: "Sabrina", idade: 23, peso: 62 };
+
+for ( let key in obj )
+{
+  console.log(key);
+}
+```
+
+```javascript
+let obj = { nome: "Sabrina", idade: 23, peso: 62 };
+
+for ( let key of Object.keys(obj) )
+{
+  console.log(key);
+}
+```
+
+```javascript
+let obj = { nome: "Sabrina", idade: 23, peso: 62 };
+
+for ( let value of Object.values(obj) )
+{
+  console.log(value);
+}
+```
+
+```javascript
+let obj = { nome: "Sabrina", idade: 23, peso: 62 };
+
+for ( let [key, value] of Object.entries(obj) )
+{
+  console.log(key, value);
+}
+```
