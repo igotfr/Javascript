@@ -115,18 +115,18 @@ for ( let i = 0; i < arr.length; i++ )
 ```javascript
 let arr = ["salada", "tomate", "batata", "beterraba", "cenoura"];
 
-for ( let a in arr )
+for ( let i in arr )
 {
-  console.log(a);
+  console.log(i);
 }
 ```
 
 ```javascript
 let arr = ["salada", "tomate", "batata", "beterraba", "cenoura"];
 
-for ( let a of arr )
+for ( let valor of arr )
 {
-  console.log(a);
+  console.log(valor);
 }
 ```
 
