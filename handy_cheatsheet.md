@@ -80,3 +80,34 @@ console.log(javascript_object[false]); // "não"
 
 console.log(javascript_object["false"]); // "não"
 ```
+
+## while
+
+```javascript
+let i = 1;
+
+while ( i < 11 )
+{
+  console.log(i);
+
+  i++;
+}
+```
+
+## for
+
+```javascript
+for ( let i = 1, j = 3; i < 11; i++, j += 2 )
+{
+  console.log(i, j);
+}
+```
+
+```javascript
+let arr = ["salada", "tomate", "batata", "beterraba", "cenoura"];
+
+for ( let i = 0; i < arr.length; i++ )
+{
+  console.log(arr[i]);
+}
+```
