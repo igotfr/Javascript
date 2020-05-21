@@ -174,6 +174,7 @@ for ( let i of Array(5).fill(null) )
 ```
 
 ## short-circuit evaluation
+
 ```javascript
 false || console.log("algo") // "algo"
 
@@ -183,3 +184,12 @@ true && console.log("algo") // "algo"
 
 false && console.log("algo") // nada
 ```
+
+## null evaluation
+
+```javascript
+undefined ?? console.log("algo") // "algo"
+null ?? console.log("algo") // "algo"
+
+8 ?? console.log("algo") // nada
+```javascript
