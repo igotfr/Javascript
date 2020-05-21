@@ -165,3 +165,10 @@ for ( let [key, value] of Object.entries(obj) )
   console.log(key, value);
 }
 ```
+
+```javascript
+for ( let i of Array(5).fill(null) )
+{
+  console.log("unicórnio");
+}
+```
