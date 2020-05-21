@@ -173,6 +173,16 @@ for ( let i of Array(5).fill(null) )
 }
 ```
 
+## operador ternário
+
+```javascript
+let tern = false ? "batata" :
+           true ? "tomate" :
+           "beterraba";
+
+console.log(tern); // "tomate"
+```
+
 ## short-circuit evaluation
 
 ```javascript
