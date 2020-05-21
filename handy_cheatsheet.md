@@ -172,3 +172,14 @@ for ( let i of Array(5).fill(null) )
   console.log("unicórnio");
 }
 ```
+
+## short-circuit evaluation
+```javascript
+false || console.log("algo") // "algo"
+
+true || console.log("algo") // nada
+
+true && console.log("algo") // "algo"
+
+false && console.log("algo") // nada
+```
