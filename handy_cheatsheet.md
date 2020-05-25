@@ -223,7 +223,7 @@ function soma(x, y) { return x + y; }
 console.log(soma(8, 9));
 ```
 
-- executar várias instruções, quantas vezes for preciso, sem repetição
+- executar várias instruções, quantas vezes for preciso, sem repetição de instruções
 ```javascript
 function f() {
   let a = 2 + 7
@@ -235,7 +235,7 @@ function f() {
 }
 ```
 
-- executar várias instruções, quantas vezes for preciso, sem repetição. Usando parâmetros no corpo da função
+- executar várias instruções, quantas vezes for preciso, sem repetição de instruções. Usando parâmetros no corpo da função
 ```javascript
 function f(x, y) {
   let valor = 2 * x
