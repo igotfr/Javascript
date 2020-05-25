@@ -202,4 +202,47 @@ undefined ?? console.log("algo") // "algo"
 null ?? console.log("algo") // "algo"
 
 8 ?? console.log("algo") // nada
+```
+
+## function
+utilidades:
+
+- retornar um valor
+
 ```javascript
+function f() { return 5; }
+
+console.log(f()); // 5
+```
+
+- retornar um valor baseado em parâmetros
+
+```javascript
+function soma(x, y) { return x + y; }
+
+console.log(soma(8, 9));
+```
+
+- executar várias instruções, quantas vezes for preciso, sem repetição
+```javascript
+function f() {
+  let a = 2 + 7
+  let b = a + 4
+
+  console.log("caju salgado");
+
+  return b
+}
+```
+
+- executar várias instruções, quantas vezes for preciso, sem repetição. Usando parâmetros no corpo da função
+```javascript
+function f(x, y) {
+  let valor = 2 * x
+  let valorComImposto = valor + y
+
+  console.log("valor do caju salgado sem imposto: $valor\nvalor do caju salgado com imposto: $valorComImposto")
+
+  return valorComImposto
+}
+```
