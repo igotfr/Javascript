@@ -241,8 +241,13 @@ function f(x, y) {
   let valor = 2 * x
   let valorComImposto = valor + y
 
-  console.log("valor do caju salgado sem imposto: $valor\nvalor do caju salgado com imposto: $valorComImposto")
+  console.log(`valor do caju salgado sem imposto: ${valor}\nvalor do caju salgado com imposto: ${valorComImposto}`)
 
   return valorComImposto
 }
+
+b = f(8, 6)
+
+console.log(b)
+console.log(f(4, 5))
 ```
