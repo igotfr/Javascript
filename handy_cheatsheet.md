@@ -176,12 +176,16 @@ for ( let i of Array(5).fill(null) )
 ## operador ternário
 
 ```javascript
-let tern = false ? "batata" :
-           true ? "tomate" :
-           "beterraba";
+let tern =
+  false ? "batata" :
+  true ? "tomate" :
+  "beterraba";
 
 console.log(tern); // "tomate"
 ```
+
+## falsey
+In JavaScript, a lot of values are falsey, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on. 
 
 ## short-circuit evaluation
 
