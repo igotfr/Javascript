@@ -185,7 +185,7 @@ console.log(tern); // "tomate"
 ```
 
 ## falsey
-In JavaScript, a lot of values are falsey, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on. 
+In JavaScript, a lot of values are *falsey*, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on.
 
 ## short-circuit evaluation
 
