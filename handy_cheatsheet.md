@@ -184,8 +184,10 @@ let tern =
 console.log(tern); // "tomate"
 ```
 
-## falsey
-In JavaScript, a lot of values are **falsey**, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on.
+## falsy
+In JavaScript, a lot of values are **falsy**, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on.
+
+https://developer.mozilla.org/pt-BR/docs/Glossario/Falsy
 
 ## short-circuit evaluation
 
