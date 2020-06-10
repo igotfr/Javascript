@@ -184,6 +184,9 @@ let tern =
 console.log(tern); // "tomate"
 ```
 
+## truthy
+https://developer.mozilla.org/pt-BR/docs/Glossario/Truthy
+
 ## falsy
 In JavaScript, a lot of values are **falsy**, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on.
 
