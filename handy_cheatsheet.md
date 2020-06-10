@@ -187,6 +187,8 @@ console.log(tern); // "tomate"
 ## falsy
 In JavaScript, a lot of values are **falsy**, like empty strings `''`, the number `0`, `undefined`, `null`, `false`, `NaN`, and so on.
 
+https://stackoverflow.com/questions/19839952/all-falsey-values-in-javascript
+
 https://developer.mozilla.org/pt-BR/docs/Glossario/Falsy
 
 ## short-circuit evaluation
