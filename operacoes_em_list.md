@@ -12,3 +12,20 @@ let users = [
 ```javascript
 users.splice(users.findIndex(user => user.id === 2), 1);
 ```
+
+## Retornar nova lista com elemento deletado
+
+```javascript
+const newUsers = users.filter(user => user.id !== 2);
+```
+
+## Atualizar elemento da lista
+
+```javascript
+```
+
+## Retornar nova lista com elemento atualizado
+
+```javascript
+const newUsers = users.map(user => user.id === 3 ? { ...user, favorite: true } : user);
+```
