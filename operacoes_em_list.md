@@ -22,7 +22,8 @@ const newUsers = users.filter(user => user.id !== 2);
 ## Atualizar elemento da lista
 
 ```javascript
-users[users.findIndex(user => user.id === 2)] = { ...users[users.findIndex(user => user.id === 2)], nome: "Afonso" };
+const userToUpdate = users.findIndex(user => user.id === 2);
+users[userToUpdate] = { ...users[userToUpdate], nome: "SILVIO" };
 ```
 
 ## Retornar nova lista com elemento atualizado
