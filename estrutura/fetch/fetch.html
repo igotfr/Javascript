@@ -1,0 +1,34 @@
+<!--
+  $ npx lite-server
+
+  http://localhost:3000/fetch.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function obterDoJson() {
+      try {
+        const response = fetch("./instagram.json")
+          .then(dados => dados.json());
+        // a linha acima pode ser substituída pela linha abaixo
+        //const data = await response.json();
+
+        return response;
+      }
+      catch (e) {
+        return e;
+      }
+    }
+
+    (async () => console.log(await obterDoJson()))();
+  </script>
+</body>
+</html>
